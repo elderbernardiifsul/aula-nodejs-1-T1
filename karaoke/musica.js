@@ -2,7 +2,7 @@
 class Musica {
 
     constructor(nome, artista) {
-        //atributos com this.atrib
+        //atributos com this.atributo
         this.nome = nome;
         this.artista = artista;
         this.partes = []; // associacao com Parte
