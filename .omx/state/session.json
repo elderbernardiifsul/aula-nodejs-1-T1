@@ -1,0 +1,10 @@
+{
+  "session_id": "019ebd2d-684d-77d1-b994-c710ce046396",
+  "native_session_id": "019ebd2d-684d-77d1-b994-c710ce046396",
+  "started_at": "2026-06-12T18:52:34.727Z",
+  "cwd": "/home/elder/ensino/prog-III/code/aula-nodejs-1-sexta",
+  "pid": 1368635,
+  "platform": "linux",
+  "pid_start_ticks": 75015019,
+  "pid_cmdline": "/home/elder/.npm/_npx/c8ab89660c602c20/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/bin/codex"
+}
