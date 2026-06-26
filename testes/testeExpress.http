@@ -1,0 +1,21 @@
+###
+GET http://localhost:3000/
+
+###
+GET http://www.google.com
+
+###
+GET http://localhost:3000/musicas/1
+
+###
+GET http://localhost:3000/musicas/1/partes/1
+
+###
+POST http://localhost:3000/musicas/1/partes
+Content-Type: application/json
+
+{
+    "letra": "LETRA QUE EU ADICIONEI",
+    "tag": "minhaParte",
+    "tempoEspera": 3000
+}

@@ -4,7 +4,7 @@ const { sleep } = require('./utils');
 const { Musica } = require('./musica');
 const { Parte } = require('./parte');
 
-const myHero = new Musica('My Hero', 'Foo Fighters');
+const musica = new Musica('My Hero', 'Foo Fighters');
 const tooAlarmin = 'Too alarmin now to talk about \n Take your pictures down and shake it out';
 const truthOrCon = 'Truth or consequence, say it aloud \n Use that evidence, race it around';
 const thereGoes = 'There goes my hero';
@@ -17,10 +17,10 @@ const youKnow = 'You know my hero \nThe one thats on';
 //verificar partes faltantes e criar.
 
 //começa a adicionar as partes da música, com letra, tempo e tag1
-myHero.addParte(
+musica.addParte(
     new Parte(tooAlarmin, 11000, 'verso1')
 );
-myHero.addParte(
+musica.addParte(
     new Parte(truthOrCon, 10000, 'verso2')
 );
 
@@ -32,7 +32,7 @@ async function play() {
         // para cada parte da música, deve imprimir qual parte é, letra e pausar o tempo necessário
         //ex.:
        
-        for (const parte of myHero.partes) {
+        for (const parte of musica.partes) {
             //imprime parte e letra
             console.log( " -- " + parte.tag + " --" );
             console.log( "> " + parte.letra );
@@ -45,5 +45,4 @@ async function play() {
     }
 }
 
-
-play();
+module.exports = {musica, play};
