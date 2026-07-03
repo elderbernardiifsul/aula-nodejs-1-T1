@@ -19,73 +19,73 @@ const youKnow = 'You know my hero \nThe one thats on';
 //começa a adicionar as partes da música, com letra, tempo e tag1
 //baseado no: https://www.youtube.com/watch?v=EqWRaAF6_WY
 myHero.addParte(
-    new Parte(tooAlarmin, 12500, 'verso1',"blue")
+    new Parte(tooAlarmin, 13500, 'verso1',"blue")
 );
 myHero.addParte(
-    new Parte(truthOrCon, 12500, 'verso2',"blue")
+    new Parte(truthOrCon, 13500, 'verso2',"blue")
 );
 myHero.addParte(
-    new Parte(thereGoes, 3500, 'refrao1',"red")
+    new Parte(thereGoes, 3600, 'refrao1',"red")
 )
 myHero.addParte(
-    new Parte(watchHim, 9500, 'refrao2',"red")
+    new Parte(watchHim, 9600, 'refrao2',"red")
+)
+myHero.addParte(
+    new Parte(thereGoes, 2600, 'refrao3',"red")
+)
+myHero.addParte(
+    new Parte(hesOrdinary, 14100, 'refrao4',"red")
+)
+myHero.addParte(
+    new Parte(dontTheBest, 7100, 'verso3',"blue")
+)
+myHero.addParte(
+    new Parte(whileTheRest, 4650, 'verso4',"blue")
+)
+myHero.addParte(
+    new Parte(truthOrCon, 14600, 'verso5',"blue")
+);
+myHero.addParte(
+    new Parte(thereGoes, 3800, 'refrao1',"red")
+)
+myHero.addParte(
+    new Parte(watchHim, 3800, 'refrao2',"red")
 )
 myHero.addParte(
     new Parte(thereGoes, 2500, 'refrao3',"red")
 )
 myHero.addParte(
-    new Parte(hesOrdinary, 14000, 'refrao4',"red")
+    new Parte(hesOrdinary, 31600, 'refrao4',"red")
 )
 myHero.addParte(
-    new Parte(dontTheBest, 7000, 'verso3',"blue")
+    new Parte(kudos,2600, 'verso6',"blue")
 )
 myHero.addParte(
-    new Parte(whileTheRest, 4550, 'verso4',"blue")
+    new Parte(youKnow,4100,'verso7',"blue")
 )
 myHero.addParte(
-    new Parte(truthOrCon, 14500, 'verso5',"blue")
-);
+    new Parte(thereGoes, 4300, 'refrao1',"red")
+)
+myHero.addParte(
+    new Parte(watchHim, 9050, 'refrao2',"red")
+)
+myHero.addParte(
+    new Parte(thereGoes, 3400, 'refrao3',"red")
+)
+myHero.addParte(
+    new Parte(hesOrdinary, 9150, 'refrao4',"red")
+)
 myHero.addParte(
     new Parte(thereGoes, 3700, 'refrao1',"red")
 )
 myHero.addParte(
-    new Parte(watchHim, 3700, 'refrao2',"red")
+    new Parte(watchHim, 9600, 'refrao2',"red")
 )
 myHero.addParte(
-    new Parte(thereGoes, 2400, 'refrao3',"red")
+    new Parte(thereGoes, 2200, 'refrao3',"red")
 )
 myHero.addParte(
-    new Parte(hesOrdinary, 31500, 'refrao4',"red")
-)
-myHero.addParte(
-    new Parte(kudos,2500, 'verso6',"blue")
-)
-myHero.addParte(
-    new Parte(youKnow,4000,'verso7',"blue")
-)
-myHero.addParte(
-    new Parte(thereGoes, 4200, 'refrao1',"red")
-)
-myHero.addParte(
-    new Parte(watchHim, 8950, 'refrao2',"red")
-)
-myHero.addParte(
-    new Parte(thereGoes, 3300, 'refrao3',"red")
-)
-myHero.addParte(
-    new Parte(hesOrdinary, 9050, 'refrao4',"red")
-)
-myHero.addParte(
-    new Parte(thereGoes, 3600, 'refrao1',"red")
-)
-myHero.addParte(
-    new Parte(watchHim, 9500, 'refrao2',"red")
-)
-myHero.addParte(
-    new Parte(thereGoes, 2100, 'refrao3',"red")
-)
-myHero.addParte(
-    new Parte(hesOrdinary, 10000, 'refrao4',"red")
+    new Parte(hesOrdinary, 10100, 'refrao4',"red")
 )
 //segue adicionando as partes
 
