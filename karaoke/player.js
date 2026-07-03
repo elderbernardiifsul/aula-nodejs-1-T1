@@ -1,4 +1,5 @@
 //script principal
+//colaborador: Pedro Henrique Rodrigues Maciel Machado
 
 const { sleep } = require('./utils');
 const { Musica } = require('./musica');
