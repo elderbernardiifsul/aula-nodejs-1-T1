@@ -40,7 +40,7 @@ myHero.addParte(
     new Parte(dontTheBest, 7000, 'verso3',"blue")
 )
 myHero.addParte(
-    new Parte(whileTheRest, 4500, 'verso4',"blue")
+    new Parte(whileTheRest, 4550, 'verso4',"blue")
 )
 myHero.addParte(
     new Parte(truthOrCon, 14500, 'verso5',"blue")
@@ -52,7 +52,7 @@ myHero.addParte(
     new Parte(watchHim, 3700, 'refrao2',"red")
 )
 myHero.addParte(
-    new Parte(thereGoes, 2500, 'refrao3',"red")
+    new Parte(thereGoes, 2400, 'refrao3',"red")
 )
 myHero.addParte(
     new Parte(hesOrdinary, 31500, 'refrao4',"red")
@@ -64,10 +64,10 @@ myHero.addParte(
     new Parte(youKnow,4000,'verso7',"blue")
 )
 myHero.addParte(
-    new Parte(thereGoes, 4000, 'refrao1',"red")
+    new Parte(thereGoes, 4200, 'refrao1',"red")
 )
 myHero.addParte(
-    new Parte(watchHim, 8900, 'refrao2',"red")
+    new Parte(watchHim, 8950, 'refrao2',"red")
 )
 myHero.addParte(
     new Parte(thereGoes, 3300, 'refrao3',"red")
