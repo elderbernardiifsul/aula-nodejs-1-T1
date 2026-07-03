@@ -67,13 +67,13 @@ myHero.addParte(
     new Parte(thereGoes, 4000, 'refrao1',"red")
 )
 myHero.addParte(
-    new Parte(watchHim, 8800, 'refrao2',"red")
+    new Parte(watchHim, 8900, 'refrao2',"red")
 )
 myHero.addParte(
-    new Parte(thereGoes, 3200, 'refrao3',"red")
+    new Parte(thereGoes, 3300, 'refrao3',"red")
 )
 myHero.addParte(
-    new Parte(hesOrdinary, 9000, 'refrao4',"red")
+    new Parte(hesOrdinary, 9050, 'refrao4',"red")
 )
 myHero.addParte(
     new Parte(thereGoes, 3600, 'refrao1',"red")
