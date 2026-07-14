@@ -45,9 +45,26 @@ app.get('/musicas/:id/partes/:parte', (req, res) =>{
     const dadosParte = player.musica.partes[parteIndex];
     res.status(200).json(dadosParte);
 });
+let cont = 0;
+app.get('/musicas/:id/play', async (req, res)=>{
+    try{
+        player.play().then(()=>{
+            console.log(`Execucao ${cont++} terminou.`);
+        });
+
+        res.status(200).send({msg:`Musica ${player.musica.nome} está tocando...` })
+
+    }catch(error){
+        console.log("ERROR no play: " + error.message);
+        //res.statusCode= 404; //se musica n existir
+        res.statusCode = 500; //o erro é responsabilidade do servidor
+        res.send({error: "Player indisponível" });
+    }
+});
 
 app.post('/musicas/:id/partes', (req, res) =>{
     const { letra, tempoEspera, tag } = req.body;
+    console.log(`meu-header: ${req.headers["meu-header"]}`);
 
     if (!letra || !tempoEspera || !tag) {
         return res.status(400).json({ erro: 'Campos obrigatórios: letra, tempoEspera, tag' });
@@ -62,9 +79,13 @@ app.post('/musicas/:id/partes', (req, res) =>{
 
     try {
         player.musica.addParte(parteAdd);
+        res.status(201).json({ parteAdd });
+
     } catch (error) {
-        return res.status(400).json({ erro: error.message });
+        return res.status(400).json({ erro:  error.message });
     }
 
-    res.status(201).json({ parteAdd });
 });
+
+
+app.listen(3000, ()=>{ console.log(`Servidor inciado.`) });
