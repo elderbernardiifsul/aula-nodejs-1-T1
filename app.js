@@ -9,6 +9,8 @@ const { Parte } = require('./karaoke/parte');
 const musicaDAO = require('./DAO/MusicaDAO');
 const { Musica } = require('./karaoke/musica');
 
+
+
 //uso do DAO
 const musica3x4 = musicaDAO.inserir('3x4', 'Engenheiros do Haway');
 musicaDAO.atualizar(musica3x4.id, musica3x4.nome, 'Engenheiros do Hawaii');
@@ -26,6 +28,10 @@ const app = express();
 // 3. Configurar middlewares (pré-processamento)
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+// 3.1 rotas public
+app.use( express.static('public') );
+
 
 // 4. Definir rotas (os "balcões de atendimento")
 app.get('/', (req, res) => {
